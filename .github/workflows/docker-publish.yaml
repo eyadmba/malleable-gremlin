@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      packages: write # Needed for GitHub Packages (ghcr.io), potentially useful
+      packages: write
 
     steps:
       - name: Checkout repository
