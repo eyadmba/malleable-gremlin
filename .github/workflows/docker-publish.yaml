@@ -30,7 +30,7 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           context: ./malleable-gremlin
-          file: ./Dockerfile
+          file: ./malleable-gremlin/Dockerfile
           push: true
           tags: eyadmba/malleable-gremlin:latest
           cache-from: type=gha
