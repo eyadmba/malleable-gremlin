@@ -1,6 +1,6 @@
 # ---- Builder Stage ----
 # Use an official Go image as the builder
-FROM golang:1.22-alpine AS builder
+FROM golang:1.23-alpine AS builder
 
 # Set the working directory inside the container
 WORKDIR /app
